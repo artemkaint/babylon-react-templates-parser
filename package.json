@@ -1,0 +1,35 @@
+{
+  "name": "babylon-react-templates-parser",
+  "version": "1.0.0",
+  "description": "Babel parser allows you import your React Templates files for server side rendering.",
+  "repository": "artemkaint/babylon-react-templates-parser",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Artem Soltynskiy",
+    "email": "artemkaint@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/artemkaint/babylon-react-templates-parser/issues"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "babel-parser",
+    "react",
+    "es6",
+    "server side rendering",
+    "react-templates"
+  ],
+  "dependencies": {
+    "babylon": "^6.17.4",
+    "escape-string-regexp": "1.0.5",
+    "react-templates": "0.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
